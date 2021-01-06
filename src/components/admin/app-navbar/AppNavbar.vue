@@ -20,13 +20,14 @@
         />
 
         <router-link
-          class="app-navbar__logo mr-3"
+          class="app-navbar__logo app-navbar__title mr-3"
           to="/"
         >
-          <va-icon-vuestic />
+          <h1>Mortgage Calculator</h1>
+          <!-- <va-icon-vuestic /> -->
         </router-link>
       </div>
-      <div class="app-navbar__center lg5 md4">
+      <!-- <div class="app-navbar__center lg5 md4">
         <span
           class="app-navbar__text"
           :style="{color: this.$themes.gray}"
@@ -50,17 +51,17 @@
         >
           {{$t('navbar.repository')}}
         </va-button>
-      </div>
-      <app-navbar-actions
+      </div> -->
+      <!-- <app-navbar-actions
         class="app-navbar__actions md5 lg4"
         :user-name="userName"
         :is-top-bar.sync="isTopBarProxy"
-      />
+      /> -->
     </div>
-    <div
+    <!-- <div
       class="app-navbar__shape"
       :style="shapeStyle"
-    ></div>
+    ></div> -->
   </nav>
 </template>
 
@@ -152,6 +153,11 @@ $nav-border-side-width: 3.1875rem;
   display: flex;
   padding: 1rem 1rem;
   z-index: 1;
+
+  &__title,
+  &__title:visited {
+    color: $white;
+  }
 
   &__content {
     z-index: 1;

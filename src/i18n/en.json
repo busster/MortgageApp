@@ -74,7 +74,15 @@
     "lineChart": "Line Chart",
     "pieChart": "Pie Chart",
     "donutChart": "Donut Chart",
-    "bubbleChart": "Bubble Chart"
+    "bubbleChart": "Bubble Chart",
+    "mortgage": {
+      "associationDues": "HOA Dues",
+      "homeInsurance": "Home Insurance",
+      "mortgage": "Mortgage",
+      "propertyTaxes": "Property Taxes",
+      "total": "Total",
+      "utilitiesCost": "Utilities Cost"
+    }
   },
   "collapse": {
     "basic": "Basic Collapse",
@@ -281,6 +289,10 @@
     "persian": "Persian"
   },
   "menu": {
+    "home": "Home",
+    "about": "About",
+    "calculators": "Calculators",
+    "mortgage": "Mortgage",
     "auth": "Auth",
     "rating": "Rating",
     "buttons": "Buttons",
@@ -477,6 +489,8 @@
     "contentTextLong": "The unique stripes of zebras make them one of the animals most familiar to people. They occur in a variety of habitats, such as grasslands, savannas, woodlands, thorny scrublands, mountains, and coastal hills. Various anthropogenic factors have had a severe impact on zebra populations, in particular hunting for skins and habitat destruction. Grévy's zebra and the mountain zebra are endangered. While plains zebras are much more plentiful, one subspecies, the quagga.",
     "rowHeight": "Row height",
     "title": {
+      "mortgage": "Mortgage Config",
+      "result": "Mortgage Result",
       "default": "Default",
       "withControls": "With controls",
       "customHeader": "Custom header",

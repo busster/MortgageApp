@@ -95,10 +95,10 @@ export default {
     flex-wrap: nowrap;
     align-items: stretch;
     // TODO Probably there is a better way to achieve this.
-    height: calc(100% - 65px);
+    height: calc(100% - 56px);
 
     @include media-breakpoint-down(sm) {
-      height: calc(100% - 110px);
+      height: calc(100% - 56px);
     }
   }
 
